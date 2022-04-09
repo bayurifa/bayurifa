@@ -1,0 +1,14 @@
+.d-card{position:fixed;right:20px;bottom:20px;width:300px;background-color:var(--widget-bg);z-index:990;padding:15px;border-radius:var(--radius);box-shadow:0 0 10px rgba(0,0,0,0.1)}
+.rtl .d-card{left:20px;right:unset}
+.dc-logo{position:relative;float:left;width:70px;height:70px;background:#FF9700;overflow:hidden;margin:0 15px 0 0;border-radius:var(--radius)}
+.rtl .dc-logo{float:right;margin:0 0 0 15px}
+.dc-
+.d-card a:hover .dc-logo:before{background-color:var(--main-color)}
+.d-card h3{font-size:18px;color:#FF9700;margin:0 0 7px}
+.d-card a:hover h3{color:var(--title-hover-color)}
+.d-card p{font-size:13px;color:var(--text-color)}
+.dc-close{position:absolute;top:0;right:0;font-size:20px;color:var(--title-color);cursor:pointer;z-index:2;padding:8px;opacity:.4}
+.rtl .dc-close{right:unset;left:0}
+.dc-close:before{display:block;content:'\e5cd';font-family:'Material Icons Round';font-weight:400}
+.dc-close:hover{color:#e8452f;opacity:1}
+.d-card,.rtl .d-card{right:0;bottom:0;width:100%;padding:20px;border-radius:0}
